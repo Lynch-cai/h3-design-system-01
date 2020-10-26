@@ -1,0 +1,34 @@
+@mixin text-title{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.25;
+}
+
+@mixin text-subtitle{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.78;
+}
+
+@mixin text-body-l{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.57;
+}
+
+@mixin text-body-m{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.57;
+}
+
+@mixin text-body-s{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.57;
+}

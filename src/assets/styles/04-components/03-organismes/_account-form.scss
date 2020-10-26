@@ -1,0 +1,22 @@
+.o-account-form{
+    .o-account-form__title{
+        margin: 0;
+        @include text-title;
+    }
+    .o-account-form__subtitle{
+        margin: 0 0 var(--base-space-8) 0;
+        @include text-body-m;
+        color: var(--text-secondary);
+    }
+    .c-form-element{
+        margin-bottom: var(--base-space-4);
+        &:nth-last-of-type(2){
+            margin-bottom: var(--base-space-6);
+        }
+    }
+    .o-account-form__button-link{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

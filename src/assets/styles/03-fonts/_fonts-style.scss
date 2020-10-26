@@ -1,0 +1,19 @@
+.text-title{
+    @include text-title;
+}
+
+.text-subtitle{
+    @include text-subtitle;
+}
+
+.text-body-l{
+    @include text-body-l;
+}
+
+.text-body-m{
+    @include text-body-m;
+}
+
+.text-body-s{
+    @include text-body-s;
+}

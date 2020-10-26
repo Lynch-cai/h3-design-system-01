@@ -1,0 +1,8 @@
+.a-link{
+    @include text-body-m;
+    color: var(--app-primary);
+    text-decoration: none;
+    &:visited, :focus, :hover{
+        color: var(--app-primary);
+    }
+}

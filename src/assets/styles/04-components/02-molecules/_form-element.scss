@@ -1,0 +1,8 @@
+.c-form-element{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .c-label-element{
+        margin-bottom: var(--base-space-2);
+    }
+}

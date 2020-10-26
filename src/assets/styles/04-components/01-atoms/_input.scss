@@ -1,0 +1,20 @@
+.a-input{
+    @include text-body-s;
+    --padding-vertical: var(--base-space-2);
+    --padding-horizontal: var(--base-space-5);
+    --border-weight: 1px;
+    padding: var(--padding-vertical) var(--padding-horizontal);
+    width: calc(100% - var(--padding-horizontal)*2 - var(--border-weight)*2);
+    height: calc(2.5rem - var(--padding-vertical)*2 - var(--border-weight)*2);
+    color: var(--text-primary);
+    background: var(--app-white);
+    border: var(--border-weight) solid var(--stroke-input-default);
+    border-radius: 0.5rem;
+    &:focus{
+        border: var(--border-weight) solid var(--app-primary);
+        outline: none;
+    }
+    &.error{
+        border: var(--border-weight) solid var(--state-error);
+    }
+}

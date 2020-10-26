@@ -1,0 +1,30 @@
+.c-button{
+    @include text-body-m;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+.c-button-primary{
+    color: var(--text-on-colored-bg);
+    background: var(--background-button-primary-default);
+    &:hover{
+        background: var(--background-button-primary-hover);
+    }
+    &:focus{
+        outline: 0;
+        background: var(--background-button-primary-focused);
+    }
+    &:active{
+        background: var(--background-button-primary-active);
+    }
+    &:disabled{
+        color: var(--text-primary);
+        background: var(--background-button-primary-disabled);
+    }
+}

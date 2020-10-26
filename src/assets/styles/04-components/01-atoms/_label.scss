@@ -1,0 +1,12 @@
+.a-label{
+    @include text-body-m;
+    color: var(--text-primary);
+}
+
+.a-label-error{
+    @include text-body-s;
+    color: var(--state-error);
+    &.hide{
+        display: none;
+    }
+}
