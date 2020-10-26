@@ -17,4 +17,7 @@
     &.error{
         border: var(--border-weight) solid var(--state-error);
     }
+    &::placeholder{
+        color: var(--text-secondary);
+    }
 }
